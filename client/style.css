@@ -82,7 +82,13 @@ p {
   animation: fadeIn;
   animation-duration: 3s;
 }
-
+.message-chatBot,
+.message__author {
+  font-style: italic;
+}
+.message-chatBot {
+  color: rgb(88, 92, 99);
+}
 .message__author {
   font-size: 0.8rem;
   font-weight: bold;
