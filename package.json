@@ -1,0 +1,15 @@
+{
+  "name": "chat_websocket",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github.com:kris2485/chat_websocket.git",
+  "author": "Krzysztof Rajnert <krzysiekrajnert@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}
